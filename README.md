@@ -1,7 +1,8 @@
 # Norminette V3 Installation Guide for MacOs users
 
-Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (foutu) MacOS\
-DON'T PANIC AND FASTEN YOUR SEATBELT. 🛬
+Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (foutu) MacOS.
+
+🛫  DON'T PANIC AND FASTEN YOUR SEATBELT. 🛬
 
 ## Pourquoi ça ne fonctionne pas ? 
 
@@ -11,8 +12,8 @@ qui est souvent :
 1) Pas à jour
 2) Non modifiable pour des raisons de sécurité
 
-## La Solution : pyenv
-Du coup, il existe deux méthodes, qui utilisent toutes les 2 le fabuleux gestionnaire de paquets pour MacOS : 🍺 Homebrew 🍺
+## Pré-requis : Homebrew
+Notre méthode utilise le fabuleux gestionnaire de paquets pour MacOS : 🍺 Homebrew 🍺
 
 Homebrew s'installe avec la commande :
 
@@ -20,16 +21,18 @@ Homebrew s'installe avec la commande :
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-L'une des méthodes est basée sur le téléchargement direct du python3.7 via `brew install python3.7`puis sur l'édition de ton PATH afin que le système chope le python de brew et non celui du système.
+## La Solution : pyenv
 
-Pour notre méthode nous utiliserons plutôt **pyenv** qui est un gestionnaire d'environnement python. 
+Notre solution utilise tout simplement **pyenv** qui est un gestionnaire d'environnement python. Il nous permettra de choisir quelle version Python le système utilise à l'installation d'un soft. 
 
-On télécharge pyenv via Homebrew : 
+1) On télécharge pyenv via **Homebrew**, puis on **initialise** pyenv : 
 ```
 brew install pyenv
+pyenv init
+echo 'eval "$(pyenv init -)"' >> .zshrc
 ```
 
-puis après cela on installe la version de python3 qui nous intéresse, ici la 3.7 :
+2) On installe la version de python3 qui nous intéresse, ici la **3.7** :
 ```
 pyenv install 3.7.9
 ```
@@ -38,7 +41,7 @@ La commande `pyenv versions` nous donne :
 
 ![Capture d'écran](./img/Screenshot.png)
 
-On fait :
+3) Donc on "set" la version sur celle qu'on vient de télécharger via :
 ```
 pyenv global 3.7.9
 ```
@@ -47,3 +50,5 @@ et la commande `pyenv versions`nous donne cette fois :
 
 ![Capture d'écran](./img/Screenshot2.png)
 
+4) On relance son terminal et on installe tranquillement la Norminette v3 :) 
+DAB DAB met du respect sur mon nom mets en plein mets en plein
