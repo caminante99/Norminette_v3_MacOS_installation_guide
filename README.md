@@ -6,8 +6,7 @@ Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (fou
 
 ## Pourquoi ça ne fonctionne pas ? 
 
-La Norminette V3 est écrite en Python3, donc lorsque que tu essayes de l'installer \
-sur ton mac, celui-ci va essayer d'utiliser le Python3 pré-installé sur ton système \
+La Norminette V3 est écrite en Python3, donc lorsque que tu essayes de l'installer sur ton mac, celui-ci va essayer d'utiliser le Python3 pré-installé sur ton système, \
 qui est souvent :
 1) Pas à jour
 2) Non modifiable pour des raisons de sécurité
