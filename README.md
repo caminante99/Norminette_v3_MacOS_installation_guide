@@ -22,7 +22,7 @@ Homebrew s'installe avec la commande :
 
 ## La Solution : pyenv
 
-Notre solution utilise tout simplement **pyenv** qui est un gestionnaire d'environnement python. Il nous permettra de choisir quelle version Python le système utilise à l'installation d'un soft. 
+Notre solution utilise tout simplement **pyenv** qui est un gestionnaire d'environnement python. Il nous permettra de choisir la version Python que le système utilise à l'installation d'un soft. 
 
 1) On télécharge pyenv via **Homebrew**, puis on **initialise** pyenv : 
 ```
@@ -49,5 +49,6 @@ et la commande `pyenv versions`nous donne cette fois :
 
 ![Capture d'écran](./img/Screenshot2.png)
 
-4) On relance son terminal et on installe tranquillement la Norminette v3 :) 
+4) On relance son terminal et on installe tranquillement la [Norminette v3](https://github.com/42School/norminette) :)
+
 DAB DAB met du respect sur mon nom mets en plein mets en plein
