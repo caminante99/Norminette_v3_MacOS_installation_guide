@@ -8,8 +8,8 @@ Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (fou
 
 La Norminette V3 est écrite en Python3, donc lorsque que tu essayes de l'installer sur ton mac, celui-ci va essayer d'utiliser le Python3 pré-installé sur ton système, \
 qui est souvent :
-1) Pas à jour
-2) Non modifiable pour des raisons de sécurité
+1) Pas la version dont tu as besoin
+2) Non modifiable/utilisable pour des raisons de sécurité
 
 ## Pré-requis : Homebrew
 Notre méthode utilise le fabuleux gestionnaire de paquets pour MacOS : 🍺 Homebrew 🍺
