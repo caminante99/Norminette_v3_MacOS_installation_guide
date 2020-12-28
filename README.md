@@ -1,4 +1,4 @@
-# Norminette V3 Installation Guide for MacOs users
+# Norminette V3 Installation Guide for MacOS
 
 Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (foutu) MacOS.
 
