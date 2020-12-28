@@ -36,7 +36,7 @@ pyenv install 3.7.9
 
 La commande `pyenv versions` nous donne : 
 
-![Capture d'écran](.img/Screenshot.png)
+![Capture d'écran](./img/Screenshot.png)
 
 On fait :
 ```
@@ -45,4 +45,5 @@ pyenv global 3.7.9
 
 et la commande `pyenv versions`nous donne cette fois : 
 
-![Capture d'écran](.img/Screenshot2.png)
+![Capture d'écran](./img/Screenshot2.png)
+
