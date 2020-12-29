@@ -1,4 +1,4 @@
-# Guide d'Installation de la Norminette-V3 de 42 sur macOS
+# Guide d'Installation de la Norminette-V3 de 42 sur macOS et Linux
 
 #### (🇬🇧/🇺🇸  English Version ahead : [here](https://github.com/ftputGuigz/Norminette_v3_MacOS_installation_guide/blob/master/README.md) 🍔)
 Ce guide a pour vocation de vous aider à installer la Norminette V3 sur ce (foutu) MacOS.

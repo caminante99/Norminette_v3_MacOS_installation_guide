@@ -1,4 +1,4 @@
-# 42School Norminette-V3 Installation Guide for MacOS
+# 42School Norminette-V3 Installation Guide for MacOS and Linux
 
 #### (🇫🇷  Version Française disponible ici : [Cocorico](https://github.com/ftputGuigz/Norminette_v3_MacOS_installation_guide/blob/master/fr.README.md) 🐓)
 
