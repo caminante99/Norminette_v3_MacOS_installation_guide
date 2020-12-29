@@ -6,7 +6,7 @@ This little tutorial was designed to help you install Norminette v3 on MacOS. Le
 
 🛫  DON'T PANIC AND FASTEN YOUR SEATBELT. 🛬
 
-## Why doesn't it work ? 🧐 
+## Why does it not work ? 🧐 
 
 Norminette V3 is written in Python3, so when you try to intall it on your Mac, it prioritizes use of the pre-installed Python3 of your system, which is often :  
 
