@@ -1,5 +1,7 @@
 # 42School Norminette-V3 Installation Guide for MacOS
 
+#### (🇫🇷  Version Française disponible ici : [Cocorico](https://github.com/ftputGuigz/Norminette_v3_MacOS_installation_guide/blob/master/fr.README.md) 🐓)
+
 This little tutorial was designed to help you install Norminette v3 on MacOS. Let's proceed.
 
 🛫  DON'T PANIC AND FASTEN YOUR SEATBELT. 🛬
